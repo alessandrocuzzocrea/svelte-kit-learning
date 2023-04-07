@@ -1,5 +1,6 @@
 <script>
   import '../app.css';
+  import Player from '../components/Player.svelte';
 </script>
 
 <!DOCTYPE html>
@@ -63,28 +64,9 @@
         </nav>
       </div>
       <!-- Content -->
-      <div class="flex-1 flex-col bg-white p-6">
-        <div>PLAYER</div>
-        <div class="flex items-center justify-between">
-          <h1 class="text-3xl font-semibold mb-4">Content Area</h1>
-          <button class="bg-blue-600 text-white px-4 py-2 rounded-lg">Action</button>
-        </div>
-        <p class="text-gray-700 mb-4">Your content goes here...</p>
+      <div class="flex-1 flex-col bg-white">
+        <Player />
         <slot />
-        <div class="grid grid-cols-3 gap-4">
-          <div class="bg-gray-200 p-4 rounded-lg">
-            <h3 class="text-xl font-semibold mb-2">Section 1</h3>
-            <p>Some description for Section 1</p>
-          </div>
-          <div class="bg-gray-200 p-4 rounded-lg">
-            <h3 class="text-xl font-semibold mb-2">Section 2</h3>
-            <p>Some description for Section 2</p>
-          </div>
-          <div class="bg-gray-200 p-4 rounded-lg">
-            <h3 class="text-xl font-semibold mb-2">Section 3</h3>
-            <p>Some description for Section 3</p>
-          </div>
-        </div>
       </div>
     </div>
   </body>
