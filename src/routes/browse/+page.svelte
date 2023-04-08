@@ -1,1 +1,1 @@
-<h1>Browse</h1>
+<h1 class="text-3xl font-bold">Browse</h1>

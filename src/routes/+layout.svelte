@@ -63,7 +63,9 @@
     <!-- Content -->
     <div class="flex-1 flex-col bg-white">
       <Player />
-      <slot />
+      <div class="p-4">
+        <slot />
+      </div>
     </div>
   </div>
 </body>
