@@ -6,10 +6,9 @@
 <body class="bg-gray-200">
   <div class="flex h-screen">
     <!-- Sidebar -->
-    <div class="bg-blue-600 w-64 flex flex-col p-4 text-white">
+    <div class="bg-blue-600 w-48 flex flex-col p-4 text-white">
       <div class="mb-8">
-        <h1 class="text-2xl font-semibold mb-2">Brand</h1>
-        <span class="text-sm">Your tagline or description</span>
+        <h1 class="text-2xl font-semibold mb-2">TimeTracker</h1>
       </div>
       <nav>
         <ul class="space-y-2">
